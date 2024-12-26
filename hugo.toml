@@ -1,0 +1,67 @@
+baseURL = "https://ramcyber.com/"
+languageCode = "en-us"
+title = "RAM Cyber LLC"
+sectionPagesMenu = "main"
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  author = "RAM Cyber LLC"
+  description = "Cloud Solutions and Custom Software Development"
+  [params.decap_cms]
+    local_backend = true
+    [params.decap_cms.backend]
+      name = 'git-gateway'
+    [params.decap_cms.collections]
+      [params.decap_cms.collections.blog]
+        create = true
+        folder = 'content/blog'
+        label = 'Blog'
+        name = 'blog'
+        [[params.decap_cms.collections.blog.fields]]
+          label = 'Title'
+          name = 'title'
+          widget = 'string'
+        [[params.decap_cms.collections.blog.fields]]
+          label = 'Publish Date'
+          name = 'date'
+          widget = 'datetime'
+        [[params.decap_cms.collections.blog.fields]]
+          label = 'Body'
+          name = 'body'
+          widget = 'markdown'
+        [params.decap_cms.collections.blog.nested]
+          depth = 1000
+      [params.decap_cms.collections.docs]
+        create = true
+        folder = 'content/docs'
+        label = 'Docs'
+        name = 'docs'
+        [[params.decap_cms.collections.docs.fields]]
+          label = 'Title'
+          name = 'title'
+          widget = 'string'
+        [[params.decap_cms.collections.docs.fields]]
+          label = 'Publish Date'
+          name = 'date'
+          widget = 'datetime'
+        [[params.decap_cms.collections.docs.fields]]
+          label = 'Body'
+          name = 'body'
+          widget = 'markdown'
+        [params.decap_cms.collections.docs.nested]
+          depth = 1000
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+  [[module.imports]]
+    path = 'github.com/hugomods/decap-cms'
+
+[outputs]
+  home = ['HTML', 'RSS', 'DecapCMSConfig']

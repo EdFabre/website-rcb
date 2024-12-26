@@ -1,0 +1,10 @@
+github.com/hugomods/decap-cms v0.16.1 h1:tfbdWv0ovx0mEcOXSVC6BVRYXolk47T8/r0RlxM+fPU=
+github.com/hugomods/decap-cms v0.16.1/go.mod h1:P9gUtk59PZYBCNVIqiovRPqI13WiKkutMtJl2YQLkMA=
+github.com/hugomods/hugopress v0.5.0 h1:eQHg1aKnc5StGFnV5H0BORhE0UmHYpaWHnX9QNseHrw=
+github.com/hugomods/hugopress v0.5.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
+github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857 h1:9ke5KnCzZQn4cmYOFVh1xQKw8mSxsVjHCywtiLncmR8=
+github.com/mdfriday/theme-long-teng v0.0.0-20241127060205-1fabfc515857/go.mod h1:/hHFPw/xA8f7T+DOnJ8N5cw4sqoMaCM9CPQmeuashT8=
+github.com/spf13/hyde v1.3.0 h1:7zf9f7xxMfD5KwdrJU+V2w7yi1W8dKKyzvNtQkuh0sE=
+github.com/spf13/hyde v1.3.0/go.mod h1:CSmLWCbXXInaA5zAkwAQ0EbwpR7Pe74eSmDxdGspoCY=
+github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.11.2 h1:e57wIClfYebSg7lqJ6ZBbsPaOO+qYEUuqzKbOCwSMqA=
+github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.11.2/go.mod h1:PiXJyylwvAMIfDiHY0SlP8fDwGHhq3ocwbP4TiuAevo=
